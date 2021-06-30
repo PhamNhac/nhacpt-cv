@@ -1,0 +1,64 @@
+.cv-header {
+    padding-bottom: 16px;
+    
+    background-color: #ccc;
+}
+
+.info {
+    display: flex;
+    align-items: center
+}
+
+.cv-header__img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 16px 24px;
+}
+
+.info-name{
+    flex: 1;
+    text-align: center;
+}
+
+.cv-header__contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cv-header__item {
+    width: 421px;
+    margin: 4px 0; 
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.cv-header__item i {
+    width: 20px;
+    margin-right: 16px;
+    text-align: center;
+}
+
+
+/* cv body */
+.cv-body__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 10%);
+}
+
+.cv-body__item-title{
+    width: 250px;
+    text-align: center;
+}
+
+.cv-body__item-content {
+    flex: 1;
+    padding: 8px 0px;
+    background-color: rgb(240, 240, 240)
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+}
